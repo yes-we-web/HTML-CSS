@@ -24,7 +24,7 @@
 :seven: __Comment fait-on télécharger un fichier à un visiteur en HTML ?__
 > On fait un lien vers le fichier avec la balise `<a>`
 
-:height: __Quelle balise délimite une liste à puce numérotée ?__
+:eight: __Quelle balise délimite une liste à puce numérotée ?__
 > `<ol>`
 
 ---
