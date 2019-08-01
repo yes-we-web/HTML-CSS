@@ -1,7 +1,10 @@
 <!-- html -->
 
 <!-- logo html -->
-![HTML](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/1603881/14570827997997_illu-cours_html5-css3.png "HTML")
+<div style="text-align:center; margin-bottom:50px;">
+    <img alt="youtube" src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/1603881/14570827997997_illu-cours_html5-css3.png">
+</div>
+
 
 :one: __Lequel de ces liens permet d'amener le visiteur à un endroit précis de la même page web ayant l'identifiant details ?__
 > `<a href="#details">`
@@ -31,7 +34,10 @@
 <!-- css -->
 
 <!-- logo css -->
-![CSS](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/2745636/14459422910729_illu_Utilisez%20les%20effets%20avances%20de%20CSS%20sur%20votre%20site.png "CSS")
+
+<div style="text-align:center; margin-bottom:50px;">
+    <img alt="youtube" src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/2745636/14459422910729_illu_Utilisez%20les%20effets%20avances%20de%20CSS%20sur%20votre%20site.png">
+</div>
 
 :one: __Que doit-on écrire en CSS pour appliquer un style aux balises de titre de niveau 2 et 3 ?__
 > `<h2></h2>` `<h3></h3>`
@@ -63,3 +69,4 @@
 :keycap_ten: __Que se passe-t-il quand un élément est rendu flottant ?__
 >Le texte entoure l'élément flottant
 
+> :arrow_right: [Puzzle Dev](https://github.com/yes-we-web/HTML-CSS) :arrow_left:
