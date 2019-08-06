@@ -42,3 +42,38 @@ Parmi ces valeurs, "**inherit**" est pour la plus plupart du temps, là plus int
 
 ![ImageResultat](images/resultat.png)
 <!-- Fin du fonctionnement -->
+
+# La cascade et ses règles
+ 
+Nous avons vu dans l'article précédent ( écrit par Ahamad) la notion d'héritage (les éléments prenant des valeurs de propriété de leurs parents et pas d'autres). Cette article va traiter d'un autre mécanisme importante du CSS : la cascade.
+Lors de l'écriture d'une feuille de style, vous allez souvent attribuer à un élément plusieurs sélecteurs.
+Comment savoir quelles règles s'appliquent finalement à cet élément?  
+ Imaginons que je veus repeindre ma chambre (c'est mon élément ex: body) en bleu.  
+```
+body {  
+backgroud-color:blue;  
+}  
+```   
+Puis de peintre en rose seulement les plinthes, et le pourtour des fenêtres en violet.  
+```  
+.plinthes {  
+background-color:pink;  
+}  
+.fenêtres {  
+background-color:purple;  
+}  
+```  
+Quelles couleurs va primer sur ma chambre au final?  
+  
+Pour éviter les conflits ( et une chambre trop bariolée :wink:), le mécanisme de la cascade pose plusieurs règles pour imposer un style.
+Avant toute action pour résoudre un conflit, nous allons nous poser une série de questions par rapport à trois facteurs importants pouvant jouer sur la résolution de celui-ci (par ordre de priorité ):
+ 
+1. L'importance  
+2. La spécificité
+3. L'ordre dans le source  
+
+Imaginons que nous devons départager des personnes en désaccord, on va se poser plusieurs questions pour trancher la discussion: 
+ 
+1. Es-que la source du conflit vient d'une personne en particulier? (l'importance de l'origine)  
+2. Sur quoi ces personnes sont en désaccord? (la spécificité des sélecteurs)
+3. "le dernier qui a parlé à raison" (l'ordre dans la source) 
