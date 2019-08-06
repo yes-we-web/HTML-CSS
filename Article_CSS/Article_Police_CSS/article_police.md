@@ -42,12 +42,13 @@ Mais sachez qu’il en existe beaucoup d’autres et que souvent de nouvelles ar
 toujours dans le but d’améliorer l’esthétisme visuel…
 
 Si vous souhaitez augmenter votre catalogue de polices css, vous avez tout à fait la possibilité d’en récolter d’autres, voici quelques exemples de sites:
-https://www.1001freefonts.com/
-https://www.fontsquirrel.com/
-https://www.dafont.com/fr/
-https://fontlibrary.org/
 
+* [1001 Free Fonts.](https://www.1001freefonts.com/)
+* [Font Squirrel.](https://www.fontsquirrel.com/)
+* [Dafont.](https://www.dafont.com/fr/)
+* [Font Library.](https://fontlibrary.org/)
 
+Maintenant c'est à vous de choisir :wink:
 
 
 ## **_Polices génériques_** :
@@ -189,5 +190,5 @@ Toute la Team vous remercie. :wave:
 
 Amandine, Céline, Louis, Ahmad et Antoine.
 
-:point_right: [Article Suivant : Cascade et Héritage en CSS](document cascade et héritage) :point_left:
+:point_right: [Article Suivant : Cascade et Héritage en CSS](Article_CSS/Article_Héritage&Cascade_CSS) :point_left:
 
