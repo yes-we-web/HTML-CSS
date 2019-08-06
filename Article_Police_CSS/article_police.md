@@ -1,13 +1,9 @@
 Bonjour à tous  :wave: .
 On espère que vous allez bien :bangbang:
 
-Petite présentation tout d'abord, nous sommes toute une équipe à travailler sur le sujet qui va suivre. On est actuellement en formation Dev Web à Lesquin (Yes We Web).
+Aujourd'hui on va vous présenter :
 
-La team se compose de :
-
-:point_right: Louis (Chef de Projet), Amandine, Céline, Ahmad et Antoine.  :point_left:
-
-On va vous présenter **comment manipuler les polices en CSS.**
+**Comment manipuler les polices en CSS.**
 
 Mais tout d'abord, il est important de bien choisir la police utilisée sur une page web. Car si la police est mal adaptée, moche, peu visible, ça ne donne pas envie de lire le site, quel que soit le contenu ou la qualité de celui-ci.
 
@@ -57,11 +53,11 @@ https://fontlibrary.org/
 
 Il y a 5 famille de polices, dites "génériques" :
 
-* **Sérif
-* Sans-Sérif
-* Monospace
-* Cursive
-* Fantasy**
+* **Sérif**
+* **Sans-Sérif**
+* **Monospace**
+* **Cursive**
+* **Fantasy**
 
 Comme on l'a dit ci-dessus, il y a différents visus pour les navigateurs, voici un aperçu sur 4 navigateurs différents:
 
@@ -167,7 +163,7 @@ Puis dans votre document CSS :
 font-family: 'nom de votre police', nom de la famille générique;
 ```
 
-## **_ @import _** :
+## **_@import_** :
 
 AU niveau de votre document HTML, il faut écrire dans votre `<head>` :
 
@@ -187,6 +183,8 @@ Nous venons de conclure notre article sur la police en CSS.
 On espère que ça vous a aidé à comprendre ou à découvrir ceci. :smile:
 
 Toute la Team vous remercie. :wave:
+
+
 
 Amandine, Céline, Louis, Ahmad et Antoine.
 
