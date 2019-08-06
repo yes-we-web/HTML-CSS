@@ -18,6 +18,7 @@ Avant de choisir ses polices pour sa page web, il faut savoir que des contrainte
 
 * Il y a des ordinateurs ou des polices n'existent pas. Du coup, si une personne sur son ordinateur ne dispose pas de votre police, une autre s'affichera par défaut et ça tue tout votre design.
 * Attention  :sos: , les Mac et PC n'ont pas toujours les mêmes noms pour les polices, ni la même résolution. ![Image de Mac vs PC](Images/Mac_vs_PC.jpg)
+
 Du coup, bien checker les équivalences entre Mac et PC.
 * Enfin, il y a des navigateurs qui ne rendent pas la police de la même façon. 
 Du coup,n'espèrez pas le même rendu partout.
