@@ -191,4 +191,3 @@ Toute la Team vous remercie. :wave:
 Amandine, Céline, Louis, Ahmad et Antoine.
 
 :point_right: [Article Suivant : Cascade et Héritage en CSS](HTML-CSS/Article_CSS/Article_Héritage&Cascade_CSS/heritage&cascade.md) :point_left:
-
