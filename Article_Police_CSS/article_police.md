@@ -169,7 +169,7 @@ Nous venons de conclure notre article sur la police en CSS j'espère que ça vou
 
 Toute la Team vous remercie. :wave:
 
-Amélie, Céline, Louis, Ahmad et Antoine.
+Amandine, Céline, Louis, Ahmad et Antoine.
 
 :point_right: [Article Suivant : Cascade et Héritage en CSS](document cascade et héritage) :point_left:
 
