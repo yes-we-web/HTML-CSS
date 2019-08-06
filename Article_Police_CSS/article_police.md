@@ -1,26 +1,32 @@
 Bonjour à tous  :wave: .
 On espère que vous allez bien :bangbang:
 
-Petite présentation tout d'abord, nous sommes toute une équipe à travailler sur le sujet qui vas suivre. On est actuellement en formation Dev Web à Lesquin (Yes We Web).
+Petite présentation tout d'abord, nous sommes toute une équipe à travailler sur le sujet qui va suivre. On est actuellement en formation Dev Web à Lesquin (Yes We Web).
 
 La team se compose de :
 
 :point_right: Louis (Chef de Projet), Amandine, Céline, Ahmad et Antoine.  :point_left:
 
-On vas vous présenter **comment manipuler les polices en CSS.**
+On va vous présenter **comment manipuler les polices en CSS.**
 
-Mais tout d'abord, il est important de bien choisir la police utilisées sur une page web. Car si la police est mal adaptée, moche, peu visible, ça ne donne pas envie de le lire, quel que soit le contenu ou la qualité de celui-ci.
+Mais tout d'abord, il est important de bien choisir la police utilisée sur une page web. Car si la police est mal adaptée, moche, peu visible, ça ne donne pas envie de lire le site, quel que soit le contenu ou la qualité de celui-ci.
+
+Au délà de l’aspect esthétique, il est facile d’oublier que tout a une signification, 
+notamment quand il s’agit de visuel. 
+Le choix de la typographie doit être réfléchi car il participera à la compréhension du message que vous voulez transmettre. Bref c'est vraiment important!
+
 
 **Notions à savoir avant toutes choses**
 
-Avant de choisir sa, ou ses polices pour sa page web, il faut savoir que des contraintes existent:
+Avant de choisir ses polices pour sa page web, il faut savoir que des contraintes existent:
 
-* Il y a des ordinateurs ou des polices n'existent pas. Du coup, si une personne son son ordinateur ne dispose pas de votre police, une autre s'affichera par défaut et ça tue tout votre design.
+* Il y a des ordinateurs ou des polices n'existent pas. Du coup, si une personne sur son ordinateur ne dispose pas de votre police, une autre s'affichera par défaut et ça tue tout votre design.
 * Attention  :sos: , les Mac et PC n'ont pas toujours les mêmes noms pour les polices, ni la même résolution. ![Image de Mac vs PC](Images/Mac_vs_PC.jpg)
 Du coup, bien checker les équivalences entre Mac et PC.
-* Enfin, il y a des navigateurs qui rendent pas la police de la même façon. Du coup, n'espèrez pas le même rendu partout.
+* Enfin, il y a des navigateurs qui ne rendent pas la police de la même façon. 
+Du coup,n'espèrez pas le même rendu partout.
 
-Maintenant qu'on vous ai bien dégoûter ... On vas voir comment gérer tous les problèmes ensemble. :bangbang: :bangbang:
+Maintenant qu'on vous a bien dégoûté ... On vas voir comment gérer tous les problèmes ensemble. :bangbang: :bangbang:
 
 Et on commence par le meilleur des moments..
 
@@ -30,14 +36,26 @@ Les familles de polices se déclarent à l'aide de le propriété `font-family`,
 
 `font-family` peut prendre 2 valeurs possibles :
 
-1. La police génériques
-2. Une police choisi par vos soins via [Google fonts.](https://fonts.google.com/)
+1. La police générique
+2. Une police choisie par vos soins via [Google fonts.](https://fonts.google.com/)
 
-( Il est possible de voir d'autres sites pour trouver des fonts mais on travaille sur google fonts du coup grosse promo sur google. :satisfied:
+Il est possible de voir d'autres sites pour trouver des fonts mais on travaille sur google fonts du coup grosse promo sur google. :satisfied:
+
+Mais sachez qu’il en existe beaucoup d’autres et que souvent de nouvelles arrivent sur le marché…
+toujours dans le but d’améliorer l’esthétisme visuel…
+
+Si vous souhaitez augmenter votre catalogue de polices css, vous avez tout à fait la possibilité d’en récolter d’autres, voici quelques exemples de sites:
+https://www.1001freefonts.com/
+https://www.fontsquirrel.com/
+https://www.dafont.com/fr/
+https://fontlibrary.org/
+
+
+
 
 ## **_Polices génériques_** :
 
-Il y a 5 famille de police, dites "génériques" :
+Il y a 5 famille de polices, dites "génériques" :
 
 * **Sérif
 * Sans-Sérif
@@ -45,7 +63,7 @@ Il y a 5 famille de police, dites "génériques" :
 * Cursive
 * Fantasy**
 
-Comme on l'as dit ci-dessus, il y a différents visu pour les navigateurs, voici un aperçu sur 4 navigateurs différents:
+Comme on l'a dit ci-dessus, il y a différents visus pour les navigateurs, voici un aperçu sur 4 navigateurs différents:
 
 1. Avec firefox : ![Écriture Firefox](Images/Écriture_Firefox.gif)
 2. Avec Microsoft Internet Explorer 7 : ![Écriture Microsoft Internet Explorer 7](Images/Écriture_Microsoft.gif)
@@ -61,7 +79,7 @@ On voit qu'il y a peu de différences avec les familles Sérif, Sans-Sérif et M
 Ils existent tellement de polices qu'on ne pourrait pas en faire la liste , c'est pourquoi [Google fonts](https://fonts.google.com/) est votre meilleur ami, il vas vous permettre de réussir à trouver de nouveaux fontes pour votre page web.
 Nous verrons par la suite comment les utiliser dans votre css.
 
-Si on met un nom de famille, c'est bien de mettre plusieurs noms à côtés pour avoir des alternatives. C'est-à-dire si l'ordinateur ne liste pas correctement, elle pourra se rabattre sur la seconde police , etc...
+Si on met un nom de famille, c'est bien de mettre plusieurs noms à côtés pour avoir des alternatives. C'est-à-dire si l'ordinateur ne liste pas correctement, il pourra se rabattre sur la seconde police , etc...
 
 # **_Font-Size_** :
 
@@ -85,7 +103,7 @@ Beaucoup de valeurs mais pas besoin d'expliquer leurs effets , leurs noms parlen
 
 # **_Font-style_** :
 
-La police peut se mettre ene italique ou oblique à l'aide de la propriété `font-style`.
+La police peut se mettre en italique ou oblique à l'aide de la propriété `font-style`.
 
 `font-style` peut prendre 3 valeurs possibles :
 
@@ -95,7 +113,7 @@ La police peut se mettre ene italique ou oblique à l'aide de la propriété `fo
 
 ## **_Normal_** :
 
-Cela prend une police dit `normal` parmi celles de `font-family`.
+Cela prend une police dit `normale` parmi celles de `font-family`.
 
 ## **_Italic_** :
 
@@ -165,11 +183,12 @@ Puis dans votre document CSS :
 font-family: 'nom de votre police', nom de la famille générique;
 ```
 
-Nous venons de conclure notre article sur la police en CSS j'espère que ça vous as aidé à comprendre ou à découvrir ceci. :smile:
+Nous venons de conclure notre article sur la police en CSS.
+On espère que ça vous a aidé à comprendre ou à découvrir ceci. :smile:
 
 Toute la Team vous remercie. :wave:
 
-Amélie, Céline, Louis, Ahmad et Antoine.
+Amandine, Céline, Louis, Ahmad et Antoine.
 
 :point_right: [Article Suivant : Cascade et Héritage en CSS](document cascade et héritage) :point_left:
 
