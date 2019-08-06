@@ -1,3 +1,8 @@
+Bonjour à tous  :wave: .
+On espère que vous allez bien :bangbang:
+
+Aujourd'hui on va vous présenter :
+
 <!-- CSS - Héritage (découverte et fonctionnement)-->
 # **L'Héritage en CSS :**
 
