@@ -8,9 +8,9 @@ Notre objectif est d'écrire des articles sur le Html et le Css pour les débuta
 
 Voici le liens de nos articles:
 
-[article police](Article_CSS/article_police.md)
+*[article police](Article_CSS/article_police.md)
 
-[article héritage & cascade](Article_CSS/heritage&cascade.md)
+*[article héritage & cascade](Article_CSS/heritage&cascade.md)
 
 
 
