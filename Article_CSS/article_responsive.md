@@ -26,16 +26,16 @@ D'abord les images, puis les commandes. Histoire que vous ne soyez pas trop perd
 
 - Voici une illustrations de ce que vous pouvez faire grâce au **CSS Grid** :
 
-![ImageDemo](images/démo.png)
+![ImageDemo](Images/démo.png)
 
 _"Cool être cette illu ? Aimer, ce genre de chose !"_ - Maître Yoda  :trollface:
 
 - Par la suite, le code `HTML`:
 
-![ImageHTML](images/htmlresponsive.png)
+![ImageHTML](Images/htmlresponsive.png)
 
 - C'est là que ça devient intéressant, voici le code `CSS` :
 
-![Image1css](images/css1.png)
-![Image2css](images/css2.png)
+![Image1css](Images/css1.png)
+![Image2css](Images/css2.png)
 
