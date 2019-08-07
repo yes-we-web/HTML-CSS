@@ -53,23 +53,27 @@ Parmi ces valeurs, "**inherit**" est pour la plus plupart du temps, là plus int
 Nous avons vu dans l'article précédent ( écrit par Ahamad) la notion d'héritage (les éléments prenant des valeurs de propriété de leurs parents et pas d'autres). Cette article va traiter d'un autre mécanisme importante du CSS : la cascade.
 L'idée est que toute propriété appliqué à un élément va s'étendre aussi à ces éléménts enfants (voir ).
 Lors de l'écriture d'une feuille de style, vous allez souvent attribuer à un élément plusieurs sélecteurs.
-Comment savoir quelles règles s'appliquent finalement à cet élément?  
- Imaginons que je veus repeindre ma chambre (c'est mon élément ex: body) en bleu.  
-```
-body {  
-backgroud-color:blue;  
-}  
-```   
-Puis de peintre en rose seulement les plinthes, et le pourtour des fenêtres en violet.  
-```  
-.plinthes {  
-background-color:pink;  
-}  
-.fenêtres {  
-background-color:purple;  
-}  
-```  
-Quelles couleurs va primer sur ma chambre au final?  
+Comment savoir quelles règles s'appliquent finalement à cet élément? 
+ Imaginons que je veux repeindre ma chambre (c'est mon élément ex: article) en bleu. Puis de peintre en rose seulement les plinthes, et le pourtour des fenêtres en violet. 
+
+ ```  
+ <article class="plinthes">"je vais peindre ma chambre en bleu et violet</article>  
+ <p id="fenêtres"> et mes fenêtres en rose </p>  
+   
+   #fenêtres {
+   background-color: pink;
+   }  
+   
+   .plinthes {
+   background-color: purple;
+   }  
+   
+   article{
+   background-color: blue;
+   }
+   ```
+  
+Quelle couleur va primer sur les autres dans ma chambre au final? 
   
 Pour éviter les conflits ( et une chambre trop bariolée :wink:), le mécanisme de la cascade pose plusieurs règles pour imposer un style.
 Avant toute action pour résoudre un conflit, nous allons nous poser une série de questions par rapport à trois facteurs importants pouvant jouer sur la résolution de celui-ci (par ordre de priorité ):
@@ -80,10 +84,17 @@ Avant toute action pour résoudre un conflit, nous allons nous poser une série 
 
 Imaginons que nous devons départager des personnes en désaccord, on va se poser plusieurs questions pour trancher la discussion: 
  
-1. Es-que la source du conflit vient d'une personne en particulier? (l'importance de l'origine)  
+1. Es-que la source du conflit vient d'une personne en particulier? (l'importance )  
 2. Sur quoi ces personnes sont en désaccord? (la spécificité des sélecteurs)
 3. "le dernier qui a parlé à raison" (l'ordre dans la source) 
 
 ## L'importance  
   
-Qui sont les acteurs
+plusieurs entités peu intervenir pour imposer une priorité mais à des degrés d'importance différents (le plus faible au plus important):  
+
+*l'agent user
+*le user
+*l'author
+*le user --!important--
+*le author --!important--
+
