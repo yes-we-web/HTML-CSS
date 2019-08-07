@@ -51,6 +51,7 @@ Parmi ces valeurs, "**inherit**" est pour la plus plupart du temps, là plus int
 # La cascade et ses règles
  
 Nous avons vu dans l'article précédent ( écrit par Ahamad) la notion d'héritage (les éléments prenant des valeurs de propriété de leurs parents et pas d'autres). Cette article va traiter d'un autre mécanisme importante du CSS : la cascade.
+L'idée est que toute propriété appliqué à un élément va s'étendre aussi à ces éléménts enfants (voir ).
 Lors de l'écriture d'une feuille de style, vous allez souvent attribuer à un élément plusieurs sélecteurs.
 Comment savoir quelles règles s'appliquent finalement à cet élément?  
  Imaginons que je veus repeindre ma chambre (c'est mon élément ex: body) en bleu.  
@@ -82,3 +83,7 @@ Imaginons que nous devons départager des personnes en désaccord, on va se pose
 1. Es-que la source du conflit vient d'une personne en particulier? (l'importance de l'origine)  
 2. Sur quoi ces personnes sont en désaccord? (la spécificité des sélecteurs)
 3. "le dernier qui a parlé à raison" (l'ordre dans la source) 
+
+## L'importance  
+  
+Qui sont les acteurs
