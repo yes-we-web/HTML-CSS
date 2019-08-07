@@ -22,7 +22,8 @@ Mais comment Marche le flexbox ? Commencez par regarder ce schéma, je suis sur 
 
 ![Flexbox](images/flexbox.png)
 
-Vous voyez c'est déja un peut plus clair.  :sweat_smile:
+Vous voyez c'est déja un peut plus clair.  :stuck_out_tongue_winking_eye:
+
 
 Maintenant pour que vous compreniez encore mieux on va vous montrer ce que cela donne directement dans un code CSS.
 
