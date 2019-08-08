@@ -48,7 +48,10 @@ Parmi ces valeurs, "**inherit**" est pour la plus plupart du temps, là plus int
 ![ImageResultat](images/resultat.png)
 <!-- Fin du fonctionnement -->
 
-# La cascade et ses règles
+# La cascade et ses règles  
+  
+![](images/cascade_illustration_CSS.jpeg)
+source:https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8/
  
 Nous avons vu dans l'article précédent ( écrit par Ahamad) la notion d'héritage (les éléments prenant des valeurs de propriété de leurs parents et pas d'autres). Cette article va traiter d'un autre mécanisme importante du CSS : la cascade.
 L'idée est que toute propriété appliqué à un élément va s'étendre aussi à ces éléménts enfants (voir ).
@@ -117,9 +120,14 @@ Un style inline est situé à l'intérieur de votre document XHTML. Il est ratta
 
 4. Le code "0 0 0 1" Les éléments et pseudo-éléments.(ex: article).
 
-ex: https://www.damienflandrin.fr/blog/post/la-specificite-des-selecteurs-css
+ex: ![](images/sélecteurs ex.jpeg)
+source : https://www.damienflandrin.fr/blog/post/la-specificite-des-selecteurs-css
  
 Après comparaison des valeurs des sélecteurs, nous pouvons connaître ainsi celui qui emporte la priorité sur l'autre.
+
+Une petite illustration pourra mieux vous aider à comprendre :  
+
+  ![](images/specifishity1.pdf)
    
 ## 3ème règle : l'ordre  
   
