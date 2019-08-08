@@ -120,7 +120,7 @@ Un style inline est situé à l'intérieur de votre document XHTML. Il est ratta
 
 4. Le code "0 0 0 1" Les éléments et pseudo-éléments.(ex: article).
 
-ex: ![](images/sélecteurs ex.jpeg)
+ex: ![](images/sélecteurs_ex.jpeg)
 source : https://www.damienflandrin.fr/blog/post/la-specificite-des-selecteurs-css
  
 Après comparaison des valeurs des sélecteurs, nous pouvons connaître ainsi celui qui emporte la priorité sur l'autre.
