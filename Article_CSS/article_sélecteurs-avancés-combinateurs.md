@@ -101,7 +101,7 @@ Les combinateurs les plus importants sont :
 * Le combinateur `+` permet de sélectionner les noeuds qui suivent immédiatement un élément donné.
 * Le combinateur `~` permet de sélectionner les noeuds qui suivent un élément et qui ont le même parent.
 * Le combinateur '>' permet de sélectionner les noeuds qui sont fils direct d'un élément donné.
-* Le combinateur ' (espace)' permet de sélectionner les noeuds qui sont fils direct d'un élément donné.
+* Le combinateur '(espace)' permet de sélectionner les noeuds qui sont fils direct d'un élément donné.
 * Le combinateur '||' permet de sélectionner les noeuds qui appartiennent à une colonne.
 
 Il y a tellement de combinateur si vous l'auriez compris , le nom peut être effrayant mais ce sont nos amis :innocent:
