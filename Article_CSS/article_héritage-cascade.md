@@ -128,7 +128,7 @@ Après comparaison des valeurs des sélecteurs, nous pouvons connaître ainsi ce
 
 Une petite illustration pourra mieux vous aider à comprendre :  
 
-  ![specificite](images/specificite.jpeg)
+  ![specificite](images/specificite.jpg)
    
 ## 3ème règle : l'ordre  
   
