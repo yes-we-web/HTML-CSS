@@ -88,13 +88,40 @@ Imaginons que nous devons départager des personnes en désaccord, on va se pose
 2. Sur quoi ces personnes sont en désaccord? (la spécificité des sélecteurs)
 3. "le dernier qui a parlé à raison" (l'ordre dans la source) 
 
-## L'importance  
+## 1ère règle : l'importance
   
-plusieurs entités peu intervenir pour imposer une priorité mais à des degrés d'importance différents (le plus faible au plus important):  
+Plusieurs entités peu intervenir pour imposer une priorité sur sa feuille de style (par ordre du plus faible en poid au plus important):  
 
-*l'agent user
-*le user
-*l'author
-*le user --!important--
-*le author --!important--
+1. l'agent user : Les paramètres de navigateur par défaut
+2.  l' user : l'internaute voulant changer des paramètres pour son confort
+3.  l'author : le développeur 
+4. l' author``!important``
+5. L'user ``!important``  
+  
+:heavy_exclamation_mark:  la déclaration ``!important`` placé à la suite de la valeur déclare la priorité sur toute les autres déclarations (à utiliser très rarement car change la cascade naturelle du code).  
+  
+## 2ème règle : la spécificité des sélecteurs  
+  
+si le conflit ne réside pas dans l'importance alors cela peut venir de deux sélecteurs qui appliquent chacun un style à un élèment.  
+On va regarder la spécificité des sélecteurs pour faciliter le choix.  
+Chaque sélecteur a une place dans la hiérarchie de la spécificité évalué par un poids différent selon qu'il soit un ID, une classe ou un simple élément. 
+Pour connaître le niveau du sélecteur on impose une codification à 4 chiffres.  
+Il existe quatre catégories distinctes qui définissent le niveau de spécificité d'un sélecteur donné (du plus "lourd" au moins important): 
 
+1. Le Code "1 0 0 0 " : Le inline style (présence du style dans le document et non dans la feuille CSS).
+Un style inline est situé à l'intérieur de votre document XHTML. Il est rattaché directement à l'élément à styliser. Par exemple <h1 style="color: #fff;"> 
+
+2. Le code "0 1 0 0 " : L' ID est un identifiant pour les éléments de vos pages (ex: #fenêtres)
+
+3. Le code "0 0 1 0 " :Les classes, attributs et pseudo-classes.Ce groupe comprend les .classes, [attributes] et les pseudo-classes (ex: .plinthes)
+
+4. Le code "0 0 0 1" Les éléments et pseudo-éléments.(ex: article).
+
+ex: https://www.damienflandrin.fr/blog/post/la-specificite-des-selecteurs-css
+ 
+Après comparaison des valeurs des sélecteurs, nous pouvons connaître ainsi celui qui emporte la priorité sur l'autre.
+   
+## 3ème règle : l'ordre  
+  
+Si après avoir questionner les deux précédentes règles nous ne trouvons pas la source du conflit, on se réfère à la règle de l'ordre.
+Les dernières déclarations ont priorité sur celles antérieures.
