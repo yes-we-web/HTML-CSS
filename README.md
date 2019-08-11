@@ -11,8 +11,9 @@ Notre objectif est d'écrire des articles sur le Html et le Css pour les débuta
 Voici le liens de nos articles:
 
 * [article police](Article_CSS/article_police.md)
-
 * [article héritage & cascade](Article_CSS/article_héritage-cascade.md)
+* [article sélecteurs avancés et combinateurs](Article_CSS/article_sélecteurs-avancés-combinateurs.md)
+* [article responsive](Article_CSS/article_responsive.md)
 
 
 
