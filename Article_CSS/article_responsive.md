@@ -1,8 +1,8 @@
 # **Responsive CSS**
 
-Connaissez vous la première intérogation des developpeurs web à notre époque ?
+Connaissez vous la première intérrogation des développeurs web à notre époque ?
 
-C'est de savoir comment faire pour que leur site s'adapte automatiquement à tout les types d'ecrans. Car oui aujourd'hui les sites internet son consultable depuis un téléphone ou une tablette en plus d'un ordinateur.
+C'est de savoir comment faire pour que leur site s'adapte automatiquement à tout les types d'ecrans. Car oui aujourd'hui les sites internet sont consultables depuis un téléphone ou une tablette en plus d'un ordinateur.
 
 C'est pour ça que le responsive existe.
 ![responsive](images/responsive.jpg)
@@ -18,18 +18,18 @@ Avant de commencer on va voir ce qu'est le Flexbox.
 
 Le Flexbox est un outil de disposition des éléments dans une page web. Il permet d'avoir un design adaptatif à l'écran. Les éléments peuvent être réagencés selon que l'on est sur un téléphone portable ou un écran d'ordinateur.
 
-Mais comment Marche le flexbox ? Commencez par regarder ce schéma, je suis sur que vous allez déjà y voir plus clair.
+Mais comment Marche le flexbox ? Commencez par regarder ce schéma, je suis sûr que vous allez déjà y voir plus clair.
 
 ![Flexbox](images/flexbox.png)
 
-Vous voyez c'est déja un peut plus clair.  :stuck_out_tongue_winking_eye:
+Vous voyez c'est déja un peu plus clair.  :stuck_out_tongue_winking_eye:
 
 
 Maintenant pour que vous compreniez encore mieux on va vous montrer ce que cela donne directement dans un code CSS.
 
 ![flexboxcss](images/responsive2.png)
 
-Bon d'accord, c'est plus un jeu que une ligne de code mais bon ça peut vous permettre d'apprendre de manière ludique :trollface:
+Bon d'accord, c'est plus un jeu qu'une ligne de code mais bon cela peut vous permettre d'apprendre de manière ludique :trollface:
 
 
 
@@ -62,4 +62,3 @@ _"Cool être cette illu ? Aimer, ce genre de chose !"_ - Maître Yoda  :trollfac
 
 ![Image1css](Images/css1.png)
 ![Image2css](Images/css2.png)
-
