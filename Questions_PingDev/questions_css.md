@@ -14,3 +14,5 @@
 (indice: 3 grandes questions)
 
 * :grey_question: Citez une méthode d'insertion du CSS dans l'html :grey_question:
+
+* :grey_question: Quelle est l'instruction Css pour utiliser les médias queries :grey_question:
