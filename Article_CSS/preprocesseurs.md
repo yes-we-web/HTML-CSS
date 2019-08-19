@@ -71,3 +71,23 @@ Attention : ne pas utiliser massivement au risque de rendre moins lisible le CSS
 
 
 
+(A continuer)
+
+
+
+### Pour plus d'information.
+
+https://sass-lang.com/guide
+
+https://sass-lang.com/documentation
+
+https://www.grafikart.fr/formations/sass-preprocesseur
+
+
+
+J'espère que ça vous a plu. 
+
+L'équipe HTML-CSS.
+
+
+
