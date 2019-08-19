@@ -52,3 +52,20 @@ Connecte-toi sur https://www.sassmeister.com
 ![SASSWeb](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/Screenshot%20from%202019-08-19%2015-50-46.png?raw=true)
 
 
+Rendre ton code sur SASS en "input".
+
+Le préprocesseur SASS te traduira ton code (à revoir)
+
+
+### installer SASS.
+
+Il faut l'installer depuis le terminal.
+
+
+### Les principales fonctions de SASS.
+
+* l'implication : évite de répéter des "class" et/ou "balise" de nombreuses fois dans le CSS.
+Attention : ne pas utiliser massivement au risque de rendre moins lisible le CSS.
+
+
+
