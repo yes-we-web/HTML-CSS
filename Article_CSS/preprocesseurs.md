@@ -67,5 +67,7 @@ Il faut l'installer depuis le terminal.
 * l'implication : évite de répéter des "class" et/ou "balise" de nombreuses fois dans le CSS.
 Attention : ne pas utiliser massivement au risque de rendre moins lisible le CSS.
 
+![SASSimbrication](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/SASSImbrication.jpg?raw=true)
+
 
 
