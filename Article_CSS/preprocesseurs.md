@@ -1,4 +1,4 @@
-#LES PREPROCESSEURS.
+# LES PREPROCESSEURS.
 
 ## Définitions.
 
@@ -25,19 +25,19 @@ L'extension ou "plugin" ou "add-on" permet d'ajouter des fonctionnalités aux pr
 ## les différents préprocesseurs.
 
 
-###PostCSS
+### PostCSS
 C'est le préprocesseur le plus personnalisable selon l'envie de son utilisateur. C'est le couteau suisses.
 
-###Less
+### Less
 En concurrence avec SASS, il a perdu la guerre de la popularité.
 
 ![fight](https://blog.rapid7.com/content/images/le-img/2014/10/which-css-preprocessor-should-you-choose.png)
 
-###SASS
+### SASS
 le plus utilisé et le plus populaire.
 
 ![sass](https://zestedesavoir.com/media/galleries/848/caf928bf-ca8a-4170-b9c2-501a52c9e65c.png)
 
 
-###Stylus - le petit nouveau.
+### Stylus - le petit nouveau.
 Ceux qui utilisent JavaScript (JS) l'apprécieront car il est programmé en JS.
