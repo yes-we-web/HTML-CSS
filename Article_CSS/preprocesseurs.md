@@ -8,7 +8,7 @@ Il intervient avant le traitement du fichier par le navigateur.
 
 ## les + et les -.
 
-Les préprocesseurs ne sont pas nécessaires mais ils permetent de de facilité et gagner du temps pour le développeur.
+Les préprocesseurs ne sont pas nécessaires mais ils permettent de facilité et gagner du temps pour le développeur.
 
 
 Par exemple, lorsque tu cherches à rendre ta mise en forme compatibilible entre tous les navigateurs même les anciens natigateurs. Ils sont utiles pour ton confort de développeur, car ils permettent une meilleure organisation et productivité. Ils sont aussi un outil pour la maintenance du code lorsque le code CSS est très long.
