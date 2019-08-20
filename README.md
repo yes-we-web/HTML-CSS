@@ -15,7 +15,7 @@ Voici le liens de nos articles:
 * [article sélecteurs avancés et combinateurs](Article_CSS/article_sélecteurs-avancés-combinateurs.md)
 * [article responsive](Article_CSS/article_responsive.md)
 * [article favoris](Article_CSS/favoris.md)
-* [article les préprocesseurs SASS](Article_CSS/preprocesseurs.md)
+* [article préprocesseurs SASS](Article_CSS/preprocesseurs.md)
 
 
 La team se compose de :
