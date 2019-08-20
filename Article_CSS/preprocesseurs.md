@@ -10,12 +10,12 @@ Les préprocesseurs ne sont pas indispensables mais utiles.
 
  En d'autres termes, que peuvent-ils faire ?
 
- * regrouper les codes en évitant les répétitions.
- * corriger certains codes.
- * modifier son code CSS plus simplement
- * effectuer de la maintenance.
- * aider à rendre compatibles ton CSS sur tous les navigateurs, même les plus anciens.
- * permettre de mieux gérer le responsive et les medias queries
+ * regrouper les codes en évitant les répétitions,
+ * corriger certains codes,
+ * modifier son code CSS plus simplemen,
+ * effectuer de la maintenance,
+ * aider à rendre compatibles ton CSS sur tous les navigateurs, même les plus anciens,
+ * permettre de mieux gérer le responsive et les medias queries,
  * Entre autres ...
 
 
@@ -23,16 +23,21 @@ Les préprocesseurs ne sont pas indispensables mais utiles.
 
 Et oui il y en a plusieurs. Quels sont-ils ?
 
+![UseOfPreprocessor2017](https://www.keycdn.com/img/blog/sass-vs-less-poll.webp)
+Source: 2015 Survey from ashleynolan.co.uk Disclaimer: these are just responses from a small portion of developers.
+
 ### PostCSS
 C'est le préprocesseur le plus personnalisable selon l'envie de son utilisateur. C'est le couteau suisses.
 
 ### Less
 En concurrence avec SASS, il a perdu la guerre de la popularité.
+il est programmé en JavaScript.
 
 ![fight](https://blog.rapid7.com/content/images/le-img/2014/10/which-css-preprocessor-should-you-choose.png)
 
 ### SASS
 le plus utilisé et le plus populaire.
+Il est programmé en Ruby.
 
 ![sass](https://zestedesavoir.com/media/galleries/848/caf928bf-ca8a-4170-b9c2-501a52c9e65c.png)
 
