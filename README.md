@@ -8,7 +8,7 @@ Nous sommes actuellement en formation Dev Web à Lesquin (Yes We Web).
 
 Notre objectif est d'écrire des articles sur l'HTML et le CSS pour les débutants mais aussi pour les devs aguerris qui veulent des renseignements.
 
-Voici le liens de nos articles:
+Voici les liens de nos articles:
 
 * [article police](Article_CSS/article_police.md)
 * [article héritage & cascade](Article_CSS/article_héritage-cascade.md)
@@ -16,6 +16,7 @@ Voici le liens de nos articles:
 * [article responsive](Article_CSS/article_responsive.md)
 * [article favoris](Article_CSS/favoris.md)
 * [article préprocesseurs SASS](Article_CSS/preprocesseurs.md)
+* [article balises HTML](Article_HTML/article_balise_HTML.md)
 
 
 La team se compose de :
