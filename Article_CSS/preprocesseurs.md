@@ -2,7 +2,7 @@
 
 ## Définitions.
 
-Ceux sont des outils ou programmes permettant de générer dynamiquement des fichiers CSS. L'objectif est d'améliorer le CSS, en apportant au développeur plus de fléxibilité, d'organisation et de confort.
+Ce sont des outils ou programmes permettant de générer dynamiquement des fichiers CSS. L'objectif est d'améliorer le CSS, en apportant au développeur plus de flexibilité, d'organisation et de confort.
 
 Ils interviennent avant le traitement du fichier par le navigateur.
 
@@ -14,7 +14,7 @@ Les préprocesseurs ne sont pas indispensables mais utiles.
  * corriger tes codes,
  * modifier ton code CSS plus simplement,
  * effectuer de la maintenance,
- * aider à rendre compatibles ton CSS sur tous les navigateurs, même les plus anciens,
+ * aider à rendre compatible ton CSS sur tous les navigateurs, même les plus anciens,
  * permettre de mieux gérer le responsive et les medias queries,
  * Entre autres ...
 
@@ -49,7 +49,7 @@ Ceux qui utilisent JavaScript (JS) l'apprécieront car il est programmé en JS.
 
 ## SASS en détail.
 
-Vous allez découvrir le merveilleux monde de SASS. Let's go!!
+tu vas découvrir le merveilleux monde de SASS. Let's go!!
 
 
 ### Installer SASS.
@@ -67,19 +67,19 @@ attention !!! Il faut mettre à jour node et npm.
 
 Une fois Sass installé, tu peux compiler Sass en CSS à l’aide de la commande sass depuis le terminal.
 
-tu dois indiquer à Sass le fichier à partir duquel construire et où générer le code CSS. Par exemple, exécuter à partir de votre terminal :
+tu dois indiquer à Sass le fichier à partir duquel tu souhaites construire et où générer le code CSS. Par exemple, exécuter à partir de votre terminal :
 
 ```
 sass input.scss output.css
 ```
 Il prend un seul fichier Sass, **input.scss** (le fichier d'entrée de la programmation avec SASS), et le compile dans **output.css** (la réponse de SASS traduit en language CSS).
 
-Une fois que vous aurez commencé à bricoler avec Sass, votre fichier Sass prétraité sera sauvegardé et enregistré en tant que fichier CSS normal que vous pourrez utiliser sur votre site Web.
+Une fois que tu auras commencé à bricoler avec Sass, ton fichier Sass prétraité sera sauvegardé et enregistré en tant que fichier CSS normal que tu pourras utiliser sur ton site Web.
 
 
 ### Les principales fonctionalités de SASS.
 
-Il y en a beaucoup trop pour vous faire la liste exhaustive. Alors voyons les plus intéressantes à notre niveau.
+Il y en a beaucoup trop pour te faire la liste exhaustive. Alors voyons les plus intéressantes à notre niveau.
 
 * _**L'--watch**_ : tu peux regarder des fichiers ou des répertoires avec l'indicateur --watch. L'indicateur de surveillance indique à Sass de surveiller les modifications apportées à tes fichiers source et de recompiler les CSS chaque fois que tu enregistres dans Sass. Si tu veux regarder ton fichier input.scss, ajoute simplement l'indicateur de surveillance à ta commande depuis le terminal, comme suit:
 
@@ -102,7 +102,7 @@ Attention! Ne pas l'utiliser massivement car le risque  est de rendre moins lisi
 ![SASSheritage](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/variablesexampleSASS.jpg)
 
 
-* _**L'héritage avec @extend**_ : Ceci est une autre fonctionnalité puissante. Il te permet de partager des propriétés d'un sélecteur à un autre.
+* _**L'héritage avec @extend**_ : Ceci est une autre fonctionnalité puissante. Elle te permet de partager des propriétés d'un sélecteur à un autre.
 
 ![SASSextendSCSS](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/extendSASS.jpg)
 ![SASSextendCSS](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/extend2SASS.jpg)
@@ -118,7 +118,7 @@ tu pourras faire des dossiers et fichiers différents pour chaque type de progra
 ```md
 @import 'NomFichier';
 ```
-Attention, pour les fichiers partials .scss il faut mettre un "_" au début du nom de fichier. L'underscore indique à Sass que le fichier est un fichier partiel et qu'il ne doit pas être généré dans un fichier CSS.
+Attention!!! pour les fichiers partials .scss il faut mettre un "_" au début du nom de fichier. L'"underscore" indique à Sass que le fichier est un fichier partiel et qu'il ne doit pas être généré dans un fichier CSS.
 
 Les partials sont très utiles pour l'organisation du programmeur. Tu le découvriras en travaillant.
 
