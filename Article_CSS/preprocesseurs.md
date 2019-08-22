@@ -115,6 +115,8 @@ NB : il y a aussi le "%" qui permet de créer une "class" qui ne sera pas prise 
 
 * _**Mixin**_ : Un mixin vous permet de créer des groupes de déclarations CSS que vous souhaitez réutiliser dans votre site. C'est utile dans le cas où la déclaration est fastidieuse et va être répéter à plusieurs reprises dans le CSS. Pour créer un mixin, utilisez la directive @mixin et donnez-lui un nom.
 
+![SASSmixin](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/mixinSASS.jpg)
+
 
 * _**Les partials**_ : Le fichier CSS @import standard te permet de fractionner plusieurs fichiers. Le problème, c'est que cela crée des requêtes HTTP supplémentaires. Sass travaille un peu différemment. Au lieu de créer une autre requête HTTP, ils combinent les fichiers en une seule.
 
