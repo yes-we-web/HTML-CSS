@@ -1,8 +1,10 @@
 # Responsive CSS
 
-Connaissez vous la première intérrogation des développeurs web à notre époque ?
+Connaissez vous la première interrogation des développeurs web à notre époque ?
 
-C'est de savoir comment faire pour que leur site s'adapte automatiquement à tout les types d'ecrans. Car oui aujourd'hui les sites internet sont consultables depuis un téléphone ou une tablette en plus d'un ordinateur.
+C'est de savoir comment faire pour que leur site s'adapte automatiquement à tout les types d'ecrans.
+
+Car oui aujourd'hui les sites internet sont consultables depuis un téléphone ou une tablette en plus d'un ordinateur.
 
 C'est pour ça que le responsive existe.
 ![responsive](../images/responsive.jpg)
@@ -11,13 +13,13 @@ Et pour ça il existe plusieurs moyens mais pour l'instant nous en verrons 2 qui
 
 ## Flexbox
 
-La première façon de créer un site web responsive s'appelle le **Flexbox**
+La première façon de créer un site web responsive s'appelle **Flexbox**
 
-Avant de commencer on va voir ce qu'est le Flexbox.
+Avant de commencer on va voir ce qu'est _**Flexbox**_.
 
-Le Flexbox est un outil de disposition des éléments dans une page web. Il permet d'avoir un design adaptatif à l'écran. Les éléments peuvent être réagencés selon que l'on est sur un téléphone portable ou un écran d'ordinateur.
+Flexbox est un outil de disposition des éléments dans une page web. Il permet d'avoir un design adaptatif à l'écran. Les éléments peuvent être réagencés selon que l'on est sur un téléphone portable ou un écran d'ordinateur.
 
-Mais comment Marche le flexbox ? Commencez par regarder ce schéma, je suis sûr que vous allez déjà y voir plus clair.
+Mais comment fonctionne Flexbox ? Commencez par regarder ce schéma, je suis sûr que vous allez déjà y voir plus clair.
 
 ![Flexbox](../images/flexbox.png)
 
@@ -33,7 +35,7 @@ Bon d'accord, c'est plus un jeu qu'une ligne de code mais bon cela peut vous per
 
 La dernière et nouvelle façon de créer un site web responsive de nos jours (pour le moment) s'appelle **CSS Grid**.
 
-Pour commencer, qu'est-ce-que `CSS Grid`?
+Pour commencer, qu'est-ce-que _**CSS Grid**_?
 
 - C'est une manière "nouvelle" de mettre en page le squelette de son futur site web/sa future page web. Il permet de placer des blocs plus facilement, avec de simples commandes.
 
