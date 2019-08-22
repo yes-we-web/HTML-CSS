@@ -2,7 +2,7 @@
 
 ## Le projet
 
-Bonjour à tous :wave:
+Bonjour à tous :wave:  
 On espère que vous allez bien.
 
 Petite présentation tout d'abord, nous sommes toute une équipe à travailler sur le sujet qui va suivre.
