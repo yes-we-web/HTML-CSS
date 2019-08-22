@@ -62,3 +62,7 @@ _"Cool être cette illu ? Aimer, ce genre de chose !"_ - Maître Yoda  :trollfac
 
 ![Image1css](../images/css1.png)
 ![Image2css](../images/css2.png)
+
+
+
+![pdf_Grid_Cheat_Sheet](/Article_CSS/images/css_grid_02.pdf)
