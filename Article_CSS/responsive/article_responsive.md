@@ -1,4 +1,4 @@
-# **Responsive CSS**
+# Responsive CSS
 
 Connaissez vous la première intérrogation des développeurs web à notre époque ?
 
@@ -9,8 +9,7 @@ C'est pour ça que le responsive existe.
 
 Et pour ça il existe plusieurs moyens mais pour l'instant nous en verrons 2 qui sont les plus courants.
 
-
-# **Flexbox**
+## Flexbox
 
 La première façon de créer un site web responsive s'appelle le **Flexbox**
 
@@ -24,18 +23,13 @@ Mais comment Marche le flexbox ? Commencez par regarder ce schéma, je suis sûr
 
 Vous voyez c'est déja un peu plus clair.  :stuck_out_tongue_winking_eye:
 
-
 Maintenant pour que vous compreniez encore mieux on va vous montrer ce que cela donne directement dans un code CSS.
 
 ![flexboxcss](../images/responsive2.png)
 
 Bon d'accord, c'est plus un jeu qu'une ligne de code mais bon cela peut vous permettre d'apprendre de manière ludique :trollface:
 
-
-
-
-
-# **CSS Grid**
+## CSS Grid
 
 La dernière et nouvelle façon de créer un site web responsive de nos jours (pour le moment) s'appelle **CSS Grid**.
 
