@@ -6,6 +6,10 @@ C'est de savoir comment faire pour que leur site s'adapte automatiquement à tou
 
 Car oui aujourd'hui les sites internet sont consultables depuis un téléphone ou une tablette en plus d'un ordinateur.
 
+À savoir que pour chaque écran il y a sa résolution, il y a un donc un minimum et un maximum à définir pour que notre site s'adapte en fonction de celle-ci, ci-dessous un petit extrait des tailles ont indiqué en fonction du type d'écran.
+
+![actualResponsive](../images/actualResponsive.png)
+
 C'est pour ça que le responsive existe.
 ![responsive](../images/responsive.jpg)
 
