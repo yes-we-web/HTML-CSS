@@ -37,20 +37,20 @@ Parmi ces valeurs, "**inherit**" est pour la plus plupart du temps, là plus int
 
 * **Voici le code HTML pour exemple :**
 
-![ImageHTML](images/html.png)
+![ImageHTML](../images/html.png)
 
 * **Exemple du code CSS :**
 
-![ImageCSS](images/css.png)
+![ImageCSS](../images/css.png)
 
 * **Résultat obtenu :**
 
-![ImageResultat](images/resultat.png)
+![ImageResultat](../images/resultat.png)
 <!-- Fin du fonctionnement -->
 
 # La cascade et ses règles  
   
-![](images/cascade_illustration_CSS.jpeg)
+![](../images/cascade_illustration_CSS.jpeg)
 source:https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8/
  
 Nous avons vu dans l'article précédent ( écrit par Ahamad) la notion d'héritage (les éléments prenant des valeurs de propriété de leurs parents et pas d'autres). Cette article va traiter d'un autre mécanisme importante du CSS : la cascade.
@@ -120,7 +120,7 @@ Un style inline est situé à l'intérieur de votre document XHTML. Il est ratta
 
 4. Le code "0 0 0 1" Les éléments et pseudo-éléments.(ex: article).
 
-ex: ![selecteurs](images/sélecteurs_ex.jpeg)  
+ex: ![selecteurs](../images/sélecteurs_ex.jpeg)  
 
 source : https://www.damienflandrin.fr/blog/post/la-specificite-des-selecteurs-css
  
@@ -128,7 +128,7 @@ Après comparaison des valeurs des sélecteurs, nous pouvons connaître ainsi ce
 
 Une petite illustration pourra mieux vous aider à comprendre :  
 
-  ![specificite](images/specificite.jpg)
+  ![specificite](../images/specificite.jpg)
    
 ## 3ème règle : l'ordre  
   

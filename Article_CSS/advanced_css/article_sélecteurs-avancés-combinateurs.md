@@ -134,4 +134,4 @@ Ahmad, Céline, Louis, Antoine, Amandine.
 
 :point_right: [Article Précedent : Cascade et Héritage en CSS](article_héritage-cascade.md) :point_left:
 
-:point_right: [Article Suivant : Responsive Design](article_responsive.md) :point_left:
+:point_right: [Article Suivant : Responsive Design](../responsive/article_responsive.md) :point_left:

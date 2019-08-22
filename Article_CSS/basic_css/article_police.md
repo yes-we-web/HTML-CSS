@@ -17,7 +17,7 @@ Le choix de la typographie doit être réfléchi car il participera à la compr�
 Avant de choisir ses polices pour sa page web, il faut savoir que des contraintes existent:
 
 * Il y a des ordinateurs ou des polices n'existent pas. Du coup, si une personne sur son ordinateur ne dispose pas de votre police, une autre s'affichera par défaut et ça tue tout votre design.
-* Attention  :sos: , les Mac et PC n'ont pas toujours les mêmes noms pour les polices, ni la même résolution. ![Image de Mac vs PC](Images/Mac_vs_PC.jpg)
+* Attention  :sos: , les Mac et PC n'ont pas toujours les mêmes noms pour les polices, ni la même résolution. ![Image de Mac vs PC](../images/Mac_vs_PC.jpg)
 
 Du coup, bien checker les équivalences entre Mac et PC.
 * Enfin, il y a des navigateurs qui ne rendent pas la police de la même façon. 
@@ -63,10 +63,10 @@ Il y a 5 famille de polices, dites "génériques" :
 
 Comme on l'a dit ci-dessus, il y a différents visus pour les navigateurs, voici un aperçu sur 4 navigateurs différents:
 
-1. Avec firefox : ![Écriture Firefox](Images/Écriture_Firefox.gif)
-2. Avec Microsoft Internet Explorer 7 : ![Écriture Microsoft Internet Explorer 7](Images/Écriture_Microsoft.gif)
-3. Avec Opéra : ![Écriture Opéra](Images/Écriture_Opéra.gif)
-4. Avec Mac : ![Écriture Safari (Mac)](Images/Écriture_Mac.gif)
+1. Avec firefox : ![Écriture Firefox](../images/Écriture_Firefox.gif)
+2. Avec Microsoft Internet Explorer 7 : ![Écriture Microsoft Internet Explorer 7](../images/Écriture_Microsoft.gif)
+3. Avec Opéra : ![Écriture Opéra](../images/Écriture_Opéra.gif)
+4. Avec Mac : ![Écriture Safari (Mac)](../images/Écriture_Mac.gif)
 
 On voit qu'il y a peu de différences avec les familles Sérif, Sans-Sérif et Monospace, Cursive est différent sur Mac par rapport au PC. Quant à Fantasy, pas la peine de dire plus, son nom parle pour lui.
 
@@ -190,4 +190,4 @@ Toute la Team vous remercie. :wave:
 
 Amandine, Céline, Louis, Ahmad et Antoine.
 
-:point_right: [Article Suivant : Cascade et Héritage en CSS](article_héritage&cascade.md) :point_left:
+:point_right: [Article Suivant : Cascade et Héritage en CSS](../advanced_css/article_héritage&cascade.md) :point_left:

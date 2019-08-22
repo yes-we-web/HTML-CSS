@@ -93,20 +93,20 @@ Il est génial pour répérer des erreurs dans ton CSS !!!
 
 * _**l'imbrication ou "nesting"**_: il évite de répéter des "class" et/ou "balise" de nombreuses fois dans le SCSS. L'imbrication est un avantage énorme par rapport à CSS car elle crée une hiérarchie visuelle, similaire à celle que tu as l'habitude d'utiliser avec HTML. Dans les exemples, tu peux voir à quel point il est moins nécessaire de répéter des classes ou des div étant donné qu’il s’agit maintenant d’une approche en cascade.
 
-![SASSimbrication](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/SASSImbrication.jpg?raw=true)
+![SASSimbrication](../images/SASSImbrication.jpg?raw=true)
 
 Attention! Ne pas l'utiliser massivement car le risque  est de rendre moins lisible le CSS.
 
 
 * _**Les variables**_ : Avec SASS, tu as l’avantage sur les CSS classiques car tu peux utiliser des variables. Tu peux stocker des éléments tels que les couleurs, les polices de caractères ou pratiquement toutes les valeurs que tu souhaites réutiliser ultérieurement. Considére les variables comme un moyen de stocker les informations. Sass utilise le symbole $ pour transformer quelque chose en une variable. Voir l'exemple ci-dessous.
 
-![SASSheritage](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/variablesexampleSASS.jpg)
+![SASSheritage](../images/variablesexampleSASS.jpg)
 
 
 * _**L'héritage avec @extend**_ : Ceci est une autre fonctionnalité puissante. Elle te permet de partager des propriétés d'un sélecteur à un autre.
 
-![SASSextendSCSS](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/extendSASS.jpg)
-![SASSextendCSS](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/extend2SASS.jpg)
+![SASSextendSCSS](../images/extendSASS.jpg)
+![SASSextendCSS](../images/extend2SASS.jpg)
 
 Pratique!! Mais attention de ne pas en abuser pour ne pas risquer de perdre le nord.
 
@@ -115,7 +115,7 @@ NB : il y a aussi le "%" qui permet de créer une "class" qui ne sera pas prise 
 
 * _**Mixin**_ : Un mixin vous permet de créer des groupes de déclarations CSS que vous souhaitez réutiliser dans votre site. C'est utile dans le cas où la déclaration est fastidieuse et va être répéter à plusieurs reprises dans le CSS. Pour créer un mixin, utilisez la directive @mixin et donnez-lui un nom.
 
-![SASSmixin](https://github.com/yes-we-web/HTML-CSS/blob/master/Article_CSS/images/mixinSASS.jpg)
+![SASSmixin](../images/mixinSASS.jpg)
 
 
 * _**Les partials**_ : Le fichier CSS @import standard te permet de fractionner plusieurs fichiers. Le problème, c'est que cela crée des requêtes HTTP supplémentaires. Sass travaille un peu différemment. Au lieu de créer une autre requête HTTP, ils combinent les fichiers en une seule.
