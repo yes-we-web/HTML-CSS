@@ -19,7 +19,10 @@ Voici les liens de nos articles:
 * [article balises HTML](Article_HTML/article_balise_HTML.md)
 
 
-La team se compose de :
+Les teams ayant bossé sur ce repo :
 
 Louis (Chef de Projet), Amandine, Céline, Ahmad et Antoine.
+
+
+Julien (Chef de Projet), Amélie, François, Dylan et Steven.
 
