@@ -1,6 +1,8 @@
-:wave:
+# Lisez-moi
 
-Bonjour à tous. 
+## Le projet
+
+Bonjour à tous :wave:
 On espère que vous allez bien.
 
 Petite présentation tout d'abord, nous sommes toute une équipe à travailler sur le sujet qui va suivre.
@@ -18,11 +20,24 @@ Voici les liens de nos articles:
 * [article préprocesseurs SASS](Article_CSS/preprocesseur/preprocesseurs.md)
 * [article balises HTML](Article_HTML/article_balise_HTML.md)
 
-
 Les teams ayant bossé sur ce repo :
 
 Louis (Chef de Projet), Amandine, Céline, Ahmad et Antoine.
 
-
 Julien (Chef de Projet), Amélie, François, Dylan et Steven.
 
+## "Qu'est-ce que HTML ?"
+
+**HTML** signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
+
+D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
+
+Source : <https://developer.mozilla.org/fr/docs/Web/HTML>
+
+## "Qu'est-ce que CSS ?"
+
+**Cascading Style Sheets (CSS)** est un langage de feuille de style utilisé pour décrire la présentation d'un document écrit en HTML ou en XML (on inclut ici les langages basés sur XML comme SVG ou XHTML).
+
+CSS décrit la façon dont les éléments doivent être affichés à l'écran, sur du papier, en vocalisation, ou sur d'autres supports.
+
+Source : <https://developer.mozilla.org/fr/docs/Web/CSS>
