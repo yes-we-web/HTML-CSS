@@ -81,6 +81,7 @@ Une fois que tu auras commencé à bricoler avec Sass, ton fichier Sass prétrai
 
 Il y en a beaucoup trop pour te faire la liste exhaustive. Alors voyons les plus intéressantes à notre niveau.
 
+
 * _**L'--watch**_ : tu peux regarder des fichiers ou des répertoires avec l'indicateur --watch. L'indicateur de surveillance indique à Sass de surveiller les modifications apportées à tes fichiers source et de recompiler les CSS chaque fois que tu enregistres dans Sass. Si tu veux regarder ton fichier input.scss, ajoute simplement l'indicateur de surveillance à ta commande depuis le terminal, comme suit:
 
 ```
@@ -110,6 +111,9 @@ Attention! Ne pas l'utiliser massivement car le risque  est de rendre moins lisi
 Pratique!! Mais attention de ne pas en abuser pour ne pas risquer de perdre le nord.
 
 NB : il y a aussi le "%" qui permet de créer une "class" qui ne sera pas prise en compte dans le CSS, sauf si tu décides, en tant que programmeur, de l'appliquer. Alors pour l'appeler tu auras besoin de "@extend".
+
+
+* _**Mixin**_ : Un mixin vous permet de créer des groupes de déclarations CSS que vous souhaitez réutiliser dans votre site. C'est utile dans le cas où la déclaration est fastidieuse et va être répéter à plusieurs reprises dans le CSS. Pour créer un mixin, utilisez la directive @mixin et donnez-lui un nom.
 
 
 * _**Les partials**_ : Le fichier CSS @import standard te permet de fractionner plusieurs fichiers. Le problème, c'est que cela crée des requêtes HTTP supplémentaires. Sass travaille un peu différemment. Au lieu de créer une autre requête HTTP, ils combinent les fichiers en une seule.
