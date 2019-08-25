@@ -17,3 +17,24 @@ Dans son esprit, il se demandait déjà que faire de plus, et c'est à force de 
 >Les numéros de page sont à certains endroits. Et les images sont toujours alignées sur certains côtés, à gauche, à droite ou au centre. Nous voulions capturer cela.
 
 Cependant et malgré l'enthousiame sucité par le concept, les **fabricants de navigateurs** ont jugé l'idée comme étant trop complexe à appliquer et ce malgré les efforts de Bos , Lie et Dave Raggett qui ont proposé en **1996** un modèle de mise en page basé sur _des cadres_ et plus tard en **2005** un module de _disposition avancé_.
+
+## Quand avons nous parler pour la première fois de CSS Grid ?
+
+C'est 7 années plus tard que le projet de l'équipe de Phil Cupp (Microsoft), ayant pour nom **Grid Layout** est enfin présenté au _W3C_ !
+
+Pourtant vous allez me dire :
+>Mais le Docteur Bos avait déjà présenter pas mal de projet qui ont tous finient contre le mur, alors qu'est ce qui à changé cette fois ?
+
+Et bien cette fois çi c'était différent, on avait enfin quelque chose de réel à juger puisque que les travaux de Phil Cup avait été développer ! Et nous autres développeurs, nous pouvions le tester.
+La mise en page par système de grille n'était plus une possibilté théorique mais **réelle** !
+
+## Qu'apporte le CSS Grid de nos jours ? 
+
+Il est :
+
+1. **Puissant** : Il permet aux concepteurs d'exprimer leurs désirs ! 
+>**"En rendant les choses simples faciles et les choses complexes possibles"** comme le disait _Etemad_
+    
+2. **Robuste** : Il evité de détériorer la mise en page, ou de faire dsiparaître le contenu accidentellement !
+
+3. **Performant** : Un algorithme **rapide** pour gérer des situations réelles comme le redimensionnelebt du navigatuer et le chargement dynamique du contenu, afin d'éviter toute frustation pour l'utilisateur final !
