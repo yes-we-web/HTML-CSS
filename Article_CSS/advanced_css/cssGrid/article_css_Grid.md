@@ -34,7 +34,19 @@ Il est :
 
 1. **Puissant** : Il permet aux concepteurs d'exprimer leurs désirs ! 
 >**"En rendant les choses simples faciles et les choses complexes possibles"** comme le disait _Etemad_
+
+**Il travaille sur deux dimensions au contraire de _Flexbox_**
     
 2. **Robuste** : Il evité de détériorer la mise en page, ou de faire dsiparaître le contenu accidentellement !
 
 3. **Performant** : Un algorithme **rapide** pour gérer des situations réelles comme le redimensionnelebt du navigatuer et le chargement dynamique du contenu, afin d'éviter toute frustation pour l'utilisateur final !
+
+## Son intégration aux navigateurs Web
+
+Intégrer quelque chose d'aussi ambitieux est toujours très compliquer, car le coût de mise en oeuvre peut dissuader les navigateurs de prendre un engagement aussi important.
+
+Mais fort heureusement, **Google** à mis en oeuvre son implémentation dans _Chromium 56 pour Android_ en **Janvier 2017** ainsi que son implémentation _Chrome_ au mois de **Mars** et de cette initative tout les autres navigateurs ont suivis le mouvement : _Mozilla_ l'a implémenté **deux jours** avant celle de _Chrome_ et **avant la fin du mois de mars** _Opera et Safari_ avaient également intégré le support pour CSS Grid.
+
+Et alors, _Microsoft_ ?
+
+Et bien _Microsoft_ sont ironiquement les derniers à avoir intégré CSS GRid à _Edge_.
