@@ -27,6 +27,8 @@ Louis (Chef de Projet), Amandine, Céline, Ahmad et Antoine.
 
 Julien (Chef de Projet), Amélie, François, Dylan et Steven.
 
+Bafodé (chef de Projet), Mickael, Richard ,Anais et Benoit
+
 ## "Qu'est-ce que HTML ?"
 
 **HTML** signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
