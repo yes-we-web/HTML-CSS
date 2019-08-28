@@ -27,7 +27,7 @@ Louis (Chef de Projet), Amandine, Céline, Ahmad et Antoine.
 
 Julien (Chef de Projet), Amélie, François, Dylan et Steven.
 
-Bafodé (chef de Projet), Mickael, Richard ,Anais et Benoit
+Bafodé (chef de Projet), Mickael, Richard ,Anaïs et Benoit
 
 ## "Qu'est-ce que HTML ?"
 
