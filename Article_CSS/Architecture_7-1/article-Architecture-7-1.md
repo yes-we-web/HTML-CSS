@@ -66,4 +66,6 @@ sass/
 
 > **pages** est l'endroit où résident les styles spécifiques à la page. Par exemple, si un projet contenait plusieurs règles de style qui ne sont jamais utilisées que dans la page "Contactez-nous" , ils vivraient ici dans unfichier _contact.scss , comme indiqué ci-dessus.
 
+7. Themes : 
 
+> **Themes** est utilisé lorsqu'un site comporte plusieurs thèmes. Par exemple, l'exemple de projet ci-dessus inclut à la fois les thèmes admin et les thèmes par défaut. Nous pouvons donc supposer que cet exemple de site a un style totalement différent pour les administrateurs connectés. Peut-être pour mieux présenter et adapter les fonctionnalités supplémentaires d'un administrateur. Certains sites Web proposent également un «mode nuit», où l’arrière-plan du site est plus sombre, avec un texte de couleur plus claire pour une lecture plus facile dans des environnements peu éclairés. Une option comme celle-ci serait également représentée dans son propre fichier de thème.
