@@ -4,42 +4,43 @@
 
 ## Exemples :
 
-sass/
-|
-|– abstracts/
-|   |– _variables.scss    # Sass Variables
-|   |– _mixins.scss       # Sass Mixins
-|
-|– vendors/
-|   |– _bootstrap.scss    # Bootstrap
-|
-|– base/
-|   |– _reset.scss        # Reset/normalize
-|   |– _typography.scss   # Typography rules
-|
-|– layout/
-|   |– _navigation.scss   # Navigation
-|   |– _grid.scss         # Grid system
-|   |– _header.scss       # Header
-|   |– _footer.scss       # Footer
-|   |– _sidebar.scss      # Sidebar
-|   |– _forms.scss        # Forms
-|
-|– components/
-|   |– _buttons.scss      # Buttons
-|   |– _carousel.scss     # Carousel
-|   |– _cover.scss        # Cover
-|   |– _dropdown.scss     # Dropdown
-|
-|– pages/
-|   |– _home.scss         # Home specific styles
-|   |– _contact.scss      # Contact specific styles
-|
-|– themes/
-|   |– _theme.scss        # Default theme
-|   |– _admin.scss        # Admin theme
-|
- – main.scss              # Main Sass input file
+``` sass/
+
+- abstracts/
+   - _variables.scss    # Sass Variables
+   - _mixins.scss       # Sass Mixins
+
+- vendors/
+   - _bootstrap.scss    # Bootstrap
+
+- base/
+   - _reset.scss        # Reset/normalize
+   - _typography.scss   # Typography rules
+
+- layout/
+   - _navigation.scss   # Navigation
+   - _grid.scss         # Grid system
+   - _header.scss       # Header
+   - _footer.scss       # Footer
+   - _sidebar.scss      # Sidebar
+   - _forms.scss        # Forms
+
+- components/
+   - _buttons.scss      # Buttons
+   - _carousel.scss     # Carousel
+   - _cover.scss        # Cover
+   - _dropdown.scss     # Dropdown
+
+- pages/
+   - _home.scss         # Home specific styles
+   - _contact.scss      # Contact specific styles
+
+- themes/
+   - _theme.scss        # Default theme
+   - _admin.scss        # Admin theme
+
+- main.scss              # Main Sass input file 
+```
 
 
 1. Abstracts :
@@ -75,7 +76,7 @@ sass/
 
 > Tous les fichiers de tous ces sous-répertoires sont ensuite importés dans le fichier d'entrée main.css , dans l'ordre indiqué ci-dessus, comme suit :
 
-`- @import 'abstracts/variables';
+``` - @import 'abstracts/variables';
 - @import 'abstracts/mixins';
 
 - @import 'vendors/bootstrap';
@@ -99,6 +100,7 @@ sass/
 - @import 'pages/contact';
 
 - @import 'themes/theme';
-- @import 'themes/admin';`
+- @import 'themes/admin';
+```
 
 > Mais notez **qu'il n'y a pas de styles définis directement dans le fichier d'entrée main.scss** . Dans l'architecture 7-1, tous les styles vivent dans un partiel nommé de manière appropriée et sont simplement importés dans le fichier d'entrée.
