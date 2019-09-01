@@ -25,12 +25,13 @@ En *BEM*, toutes les classes CSS sans exception commencent  par le nom du bloc. 
 Si on souhaite ajouter  un élément item dans notre bloc *.menu* , on va le nommer *.menu__item.* On sépare le bloc de l'élément par deux underscores.
 
 Le code HTML ressemblerait donc à ça :
-
+~~~
 <div class="menu
 ">
 <div class="menu__item
 ">Page 1</div>
 </div>
+~~~
 
 ce qui rend la lecture et la compréhenson  du code  facile, ici *.menu__item* est un élément de *.menu* .
 
