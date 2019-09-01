@@ -37,18 +37,20 @@ ce qui rend la lecture et la compréhenson  du code  facile, ici *.menu__item* e
 
 Concernant le modificateur, on sépare le bloc ou l'élément par deux tirets *.bloc__element--modificateur* :
 
+~~~
 <div class="menu">
 <div class="menu__item">Page 1</div>
 <div class="menu__item  menu__item--is-open
 ">Page 2</div>
 <div class="menu__item">Page 3</div>
 </div>
+~~~
 
 
 
 Cette façon d'écrire et une norme c'est donc une recommandation, vous êtes libre d'utiliser un underscore plutôt que deux, ou faire du camel case. Il faut simplement respecter une hiérarchie et rendre le code aussi lisible que possible.
 
-#Pourquoi l'uttiliser ?
+# Pourquoi l'uttiliser ?
 
 
  BEM rend le développement d'interface facile et rapide, même avec une interface utilisateur complexe, et permet de réutiliser le code existant sans copier-coller,car comme dit plus haut c'​​est une approche du développement Web basée sur des composants. L'idée est de diviser l'interface utilisateur en blocs indépendants.
