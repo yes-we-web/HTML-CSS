@@ -58,4 +58,6 @@ sass/
 
 > **Layout** contient des styles pour différents aspects de la structure du site (pensez aux zones telles que les barres de navigation, les en-têtes, les pieds de page, etc.).
 
+5. Components :
 
+> **Components** c'est comme des "mini" mises en page. Les styles de petites pièces réutilisables du site doivent résider ici (pensez aux boutons, aux formulaires, aux images de profil, etc.)
