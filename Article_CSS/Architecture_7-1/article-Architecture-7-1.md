@@ -54,6 +54,8 @@ sass/
 
 > **Base** contient un passe-partout utilisé tout au long de la nuit. Cela inclut les styles de typographie applicables à l’ensemble du projet et les feuilles de style qui réinitialisent ou normalisent universellement les CSS par défaut.
 
+4. Layout :
 
+> **Layout** contient des styles pour différents aspects de la structure du site (pensez aux zones telles que les barres de navigation, les en-têtes, les pieds de page, etc.).
 
 
