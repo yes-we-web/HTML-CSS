@@ -12,9 +12,8 @@ Cette méthodologie est par Yandex (plus grand moteur de recherche russophone du
 
 -**Le bloc** est le composant parent qui peut contenir un ou plusieur élements par exemple : un menu ,un footer(pied de pages), un header (haut de page).En Html les bolcs sont représenté par l'attribut *class* .
 
--**L'élément** quant a lui est  un composant appartenant à un bloc. *L'élément* est considéreé  comme étant l'enfant d'un bloc.Un élément fait toujours partie d'un bloc,et pas d'un autre élément.
+-**L'élément** quant a lui est  un composant appartenant à un bloc. *L'élément* est considéreé  comme étant l'enfant d'un bloc.Un élément fait toujours partie d'un bloc,et pas d'un autre élément.Par exemple le titre d'un bloc ,une page d'un menu.
 
-    par exemple : le titre d'un bloc, une page d'un menu.
 
 -Et **le modificateur** alors ? Il est là pour définir l'apparence, l'état ou le comportement d'un composant. Il se modifie en fonction du contexte de la page ou d'une action de l'utilisateur. Il peut aussi bien être appliqué à un bloc qu'à un élément.Par exemple : un fond de couleur différente pou une page spécifique, un élément rendu visible (ou caché) après un clic de l'utilisateur. L'utilisation de modificateurs est facultative .
 
