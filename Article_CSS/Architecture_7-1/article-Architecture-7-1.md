@@ -1,0 +1,53 @@
+# 7-1 SASS Architecture
+
+> Le modèle **7-1** est un moyen populaire et effectivement modulaire de structurer les projets Sass . Si votre stage ou votre lieu de travail éventuel utilise Sass, il est fort probable qu'ils utilisent certaines variantes de ce type d'architecture. Veillons donc à vous familiariser avec ce sujet avant de continuer!
+
+## Exemples :
+
+sass/
+|
+|– abstracts/
+|   |– _variables.scss    # Sass Variables
+|   |– _mixins.scss       # Sass Mixins
+|
+|– vendors/
+|   |– _bootstrap.scss    # Bootstrap
+|
+|– base/
+|   |– _reset.scss        # Reset/normalize
+|   |– _typography.scss   # Typography rules
+|
+|– layout/
+|   |– _navigation.scss   # Navigation
+|   |– _grid.scss         # Grid system
+|   |– _header.scss       # Header
+|   |– _footer.scss       # Footer
+|   |– _sidebar.scss      # Sidebar
+|   |– _forms.scss        # Forms
+|
+|– components/
+|   |– _buttons.scss      # Buttons
+|   |– _carousel.scss     # Carousel
+|   |– _cover.scss        # Cover
+|   |– _dropdown.scss     # Dropdown
+|
+|– pages/
+|   |– _home.scss         # Home specific styles
+|   |– _contact.scss      # Contact specific styles
+|
+|– themes/
+|   |– _theme.scss        # Default theme
+|   |– _admin.scss        # Admin theme
+|
+ – main.scss              # Main Sass input file
+
+
+1. Abstracts :
+
+> **Abstracts** ne contient pas de styles , mais juste des mécanismes Sass permettant de définir des styles dans d’autres répertoires (parfois appelés "assistants"). Cela inclut des choses comme les variables globales, les fonctions et les mixins. Chacune de ces catégories doit être placée dans son propre fichier partiel, nommé comme il convient, comme indiqué ci-dessus.
+
+2. Vendors :
+
+> **Vendors** contient toutes les feuilles de style tierces utilisées par un projet. Par exemple, si nous voulions utiliser Bootstrap avec notre propre Sass personnalisé dans un projet, nous téléchargerions la feuille de style Bootstrap et la placerions ici.
+
+
