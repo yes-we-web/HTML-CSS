@@ -61,3 +61,9 @@ sass/
 5. Components :
 
 > **Components** c'est comme des "mini" mises en page. Les styles de petites pièces réutilisables du site doivent résider ici (pensez aux boutons, aux formulaires, aux images de profil, etc.)
+
+6. Pages :
+
+> **pages** est l'endroit où résident les styles spécifiques à la page. Par exemple, si un projet contenait plusieurs règles de style qui ne sont jamais utilisées que dans la page "Contactez-nous" , ils vivraient ici dans unfichier _contact.scss , comme indiqué ci-dessus.
+
+
