@@ -1,18 +1,36 @@
 # QUESTIONS SUR LE CSS
 
 
-* :grey_question: Quel est l'intérêt d'utiliser différentes polices pour un site  :grey_question:
+1) à quoi sert la balise < p> ? réponse : la balise < p> sert à écrire un paragraphe
 
-* :grey_question: Combien existe-t-il de familles de polices (familles principales) :grey_question:
+2) si on veut passer une ligne dans la balise < p> quel balise peut-on ajouter ? réponse : on utilise la balise < br>
 
-* :grey_question: Quelle est l'une des instructions css à banir lors de la création de codes :grey_question:
-(indice: ils en existent 3 qui peuvent détruire tout le style si on les utilisent)
+3) quel est la balise pour une liste ordonné ? réponse : < ol> < /ol>
 
-* :grey_question: Que signifie la notion d'héritage en css :grey_question:
+4) quel est la balise pour une liste désordonné ? réponse : < ul> < /ul>
 
-* :grey_question: Lors d'un conflit, quelles sont les étapes/questions que je dois me poser :grey_question:
-(indice: 3 grandes questions)
+5) quel est la balise pour faire un lien en html ? réponse : < a href="mettre le lien">mettre le message qui va apparaître sur le site ici< /a>
 
-* :grey_question: Citez une méthode d'insertion du CSS dans l'html :grey_question:
+6) comment "forcer" l'ouverture d'un lien dans une nouvelle fenêtre ? réponse : on rajoute target="_blank"
 
-* :grey_question: Quelle est l'instruction Css pour utiliser les médias queries :grey_question:
+7) comment faire un lien qui renvoie sur une adresse mail ? réponse : < p>< a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !< /a>< /p>
+
+8) comment insérer une image en html ? réponse :  < img src="lien de l'image ici"/>
+
+9) à quoi sert "alt" que l'on met très souvent dans la balise < img> ? réponse : "alt" sert à mettre du texte si jamais il y a un problème avec le navigateur pour afficher une image, le text va remplacer l'image
+
+Question CSS :
+
+1) qu'es-ce que l'on utilise pour augmenter la taille du text dans le css ? réponse : on utilise font-size
+
+2) comment mettre un text en italique dans le css ? réponse : font-size: italic;
+
+3) comment souligner un text dans le css ? réponse : text-decoration : underline;
+
+4) comment mettre la couleur rouge en arrière plan dans le css ? réponse : background-color: red;
+
+5) comment changer la couleur d'un text en rouge dans le css ? réponse : color: red;
+
+6) comment changer la transparence dans le css ? réponse : avec opacity, par exemple : opacity: 0.4%;
+
+7) comment mettre une ombre sur les lettres de votre paragraphe dans le css? réponse : avec text-shadow
