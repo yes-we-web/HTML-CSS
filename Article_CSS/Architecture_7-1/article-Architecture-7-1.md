@@ -50,4 +50,10 @@ sass/
 
 > **Vendors** contient toutes les feuilles de style tierces utilisées par un projet. Par exemple, si nous voulions utiliser Bootstrap avec notre propre Sass personnalisé dans un projet, nous téléchargerions la feuille de style Bootstrap et la placerions ici.
 
+3. Base :
+
+> **Base** contient un passe-partout utilisé tout au long de la nuit. Cela inclut les styles de typographie applicables à l’ensemble du projet et les feuilles de style qui réinitialisent ou normalisent universellement les CSS par défaut.
+
+
+
 
