@@ -18,18 +18,18 @@ Et pour ça il existe plusieurs moyens mais pour l'instant nous en verrons 2 qui
 
 # Utiliser la balise meta viewport pour contrôler la mise en page sur les navigateurs mobiles:
 
-![viewport](../yassinebelaid/Pictures/viewport.png)
+![viewport](../Pictures/viewport.png)
 
 Les nouvelles fonctionnalités de la version à venir de Firefox Mobile (Fennec), 1.1, ont amélioré le support pour la balise <meta name="viewport">. Les versions précédentes supportaient les propriétés width, height, et initial-scale de la balise viewport, mais étaient problématiques avec certains sites prévus pour les navigateurs iPhone et Android. Nous supportons désormais les mêmes propriétés que Safari Mobile, et nous avons également amélioré Fennec pour permettre au rendu d'être plus cohérent entre les différentes tailles et résolutions d'écrans.
 
 # Tailles communes de viewport pour les périphériques mobiles et tablettes:
 
 
-![res](../yassinebelaid/Pictures/res.png)
+![res](../Pictures/res.png)
 
 Si vous souhaitez connaître les largeurs de viewport des périphériques mobiles et tablettes les plus communs,Elle vous donnera des informations telles que la largeur du viewport en orientation portrait et paysage, ainsi que la taille physique de l'écran, le système d'exploitation et la résolution du périphérique.
 
-![resp](../yassinebelaid/Pictures/resp.png)
+![resp](../Pictures/resp.png)
 
 # Les media queries :
 
@@ -45,13 +45,13 @@ Si vous souhaitez connaître les largeurs de viewport des périphériques mobile
 # print : 
 Ces directives peuvent parfaitement être intégrées au sein même d'une feuille de style grâce à une règle @media suivie directement du type. La syntaxe sera alors légèrement différente :
 
-![print](../yassinebelaid/Pictures/print.png)
+![print](../Pictures/print.png)
 
 Note : d'autres variantes peuvent exister avec la règle @import, cependant celle-ci pose quelques problèmes de performance sur d'anciens navigateurs et se voit ignorée lorsqu'elle est utilisée en combinaison avec les media queries sur Internet Explorer versions inférieures à 8. Ce point ne sera donc pas approfondi ici.
 
 # Logical opirators:
 
-![logic](../yassinebelaid/Pictures/logic.png)
+![logic](../Pictures/logic.png)
 
 #And:
 Pour obtenir l'équivalent du "ou", il suffit d'énumérer différentes media queries à la suite, séparées par des virgules : si l'une d'entre elles est valable, alors l'ensemble de la règle sera appliquée.
@@ -60,15 +60,15 @@ En général, on combine ensemble un type de média (screen, all...) et une expr
 
 Les deux exemples suivants ciblent les écrans de largeur inférieure à 640 pixels grâce à la règle max-width associée à la valeur 640px.
 
-![and](../yassinebelaid/Pictures/and.png)
+![and](../Pictures/and.png)
 
 #not only:
 
-![not_only](../yassinebelaid/Pictures/not_only.png)
+![not_only](../Pictures/not_only.png)
 
 # Fonctionnalités:
 
-![min-max] (../yassinebelaid/Pictures/min-max.png)
+![min-max] (../Pictures/min-max.png)
 
 La plupart des critères (ou fonctionnalités) peuvent être préfixés par min- et max- lorsqu'elles acceptent des valeurs numériques pour définir des valeurs minimales ou maximales à respecter.
 
@@ -92,7 +92,7 @@ Certaines de ces propriétés peuvent être testées d'une façon raccourcie san
 
 # Mobile first :
 
-![mob] (../yassinebelaid/Pictures/mob.png)
+![mob] (../Pictures/mob.png)
 
 #langage HTML Flexible et Dynamique de l’adaptation des Éléments Mobiles:
 Fonctionnement : Un algorithme qui prend en compte l’ordre des éléments de la page sur la version PC et les réorganise en fonction de la logique prédéterminée de la page mobile. Les modifications personnalisées d'ordre logique sont autorisées pour l’affichage mobile destinées à répondre aux besoins professionnels du webmaster (contrairement aux sites web responsifs non modifiables) - ce qui réduit suffisamment le processus de transfert en général. Pourquoi est-ce nécessaire ? Réduit le temps et les coûts pour mettre à jour la version mobile.
@@ -103,26 +103,26 @@ Fonctionnement : Un algorithme pour nettoyer les espaces inutiles qui existent �
 #Utilisation des polices du web pour obtenir le même résultat sur différents navigateurs:
 Fonctionnement : Utilisation d’un ensemble téléchargeable de polices web formatées de manière identique pour tous les navigateurs et appareils (WOFF2, WO Utilisation des polices du web pour obtenir le même résultat sur différents navigateurs.
 
-![mobf] (../yassinebelaid/Pictures/mobf.png)
+![mobf] (../Pictures/mobf.png)
 
 #Media queries level 4 :
 
-![mes](../yassinebelaid/Pictures/mes.png)
+![mes](../Pictures/mes.png)
 
 Les entités multimédias de type "plage" peuvent être écrites en alternance dans un contexte de plage tirant parti du fait que leurs valeurs sont ordonnées, à l'aide d'opérateurs de comparaison mathématiques ordinaires:
 
-![med] (../yassinebelaid/Pictures/med.png)
+![med] (..Pictures/med.png)
 
 **Remarque:** cette syntaxe est nouvelle pour le niveau 4 de Mediaqueries et n'est donc pas aussi largement prise en charge pour le moment que les préfixes min / max .
 
 
 # Mixins media queries: 
 
-![mixins](../yassinebelaid/Pictures/mixins.png)
+![mixins](../Pictures/mixins.png)
 
 Sass mixins nous donne la possibilité de créer des fragments de code réutilisables: ils réduisent la répétition, favorisent le code non crypté et permettent une maintenance aisée. Écrire des media queries sous forme de mixins à insérer dans vos feuilles de style.
 
-/yassinebelaid/Pictures/respo.png
+
 
 
 
