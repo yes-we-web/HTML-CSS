@@ -1,4 +1,4 @@
-# Responsive CSS
+# Responsive CSS:
 
 Connaissez vous la première interrogation des développeurs web à notre époque ?
 
@@ -15,50 +15,127 @@ C'est pour ça que le responsive existe.
 
 Et pour ça il existe plusieurs moyens mais pour l'instant nous en verrons 2 qui sont les plus courants.
 
-## Flexbox
 
-La première façon de créer un site web responsive s'appelle **Flexbox**
+# Utiliser la balise meta viewport pour contrôler la mise en page sur les navigateurs mobiles:
 
-Avant de commencer on va voir ce qu'est _**Flexbox**_.
+![viewport](../yassinebelaid/Pictures/viewport.png)
 
-Flexbox est un outil de disposition des éléments dans une page web. Il permet d'avoir un design adaptatif à l'écran. Les éléments peuvent être réagencés selon que l'on est sur un téléphone portable ou un écran d'ordinateur.
+Les nouvelles fonctionnalités de la version à venir de Firefox Mobile (Fennec), 1.1, ont amélioré le support pour la balise <meta name="viewport">. Les versions précédentes supportaient les propriétés width, height, et initial-scale de la balise viewport, mais étaient problématiques avec certains sites prévus pour les navigateurs iPhone et Android. Nous supportons désormais les mêmes propriétés que Safari Mobile, et nous avons également amélioré Fennec pour permettre au rendu d'être plus cohérent entre les différentes tailles et résolutions d'écrans.
 
-Mais comment fonctionne Flexbox ? Commencez par regarder ce schéma, je suis sûr que vous allez déjà y voir plus clair.
+# Tailles communes de viewport pour les périphériques mobiles et tablettes:
 
-![Flexbox](../images/flexbox.png)
 
-Vous voyez c'est déja un peu plus clair.  :stuck_out_tongue_winking_eye:
+![res](../yassinebelaid/Pictures/res.png)
 
-Maintenant pour que vous compreniez encore mieux on va vous montrer ce que cela donne directement dans un code CSS.
+Si vous souhaitez connaître les largeurs de viewport des périphériques mobiles et tablettes les plus communs,Elle vous donnera des informations telles que la largeur du viewport en orientation portrait et paysage, ainsi que la taille physique de l'écran, le système d'exploitation et la résolution du périphérique.
 
-![flexboxcss](../images/responsive2.png)
+![resp](../yassinebelaid/Pictures/resp.png)
 
-Bon d'accord, c'est plus un jeu qu'une ligne de code mais bon cela peut vous permettre d'apprendre de manière ludique :trollface:
+# Les media queries :
 
-## CSS Grid
+**screen** => Écrans
+**handheld** =>Périphériques mobiles ou de petite taille
+**print** =>Impression
+**braille** => Plages braille
+**projection** => Projecteurs (ou présentations avec slides)
+**tty** =>Terminal/police à pas fixe
+**tv** =>Téléviseur
+**all** =>Tous les précédents
 
-La dernière et nouvelle façon de créer un site web responsive de nos jours (pour le moment) s'appelle **CSS Grid**.
+# print : 
+Ces directives peuvent parfaitement être intégrées au sein même d'une feuille de style grâce à une règle @media suivie directement du type. La syntaxe sera alors légèrement différente :
 
-Pour commencer, qu'est-ce-que _**CSS Grid**_?
+![print](../yassinebelaid/Pictures/print.png)
 
-- C'est une manière "nouvelle" de mettre en page le squelette de son futur site web/sa future page web. Il permet de placer des blocs plus facilement, avec de simples commandes.
+Note : d'autres variantes peuvent exister avec la règle @import, cependant celle-ci pose quelques problèmes de performance sur d'anciens navigateurs et se voit ignorée lorsqu'elle est utilisée en combinaison avec les media queries sur Internet Explorer versions inférieures à 8. Ce point ne sera donc pas approfondi ici.
 
-_"Hein j'ai pas compris votre charabia là..."_ :sweat_smile:
+# Logical opirators:
 
-No stress, on va vous montrer comment cela fonctionne.
-D'abord les images, puis les commandes. Histoire que vous ne soyez pas trop perdu(e)s !  :stuck_out_tongue_winking_eye:
+![logic](../yassinebelaid/Pictures/logic.png)
 
-- Voici une illustrations de ce que vous pouvez faire grâce au **CSS Grid** :
+#And:
+Pour obtenir l'équivalent du "ou", il suffit d'énumérer différentes media queries à la suite, séparées par des virgules : si l'une d'entre elles est valable, alors l'ensemble de la règle sera appliquée.
 
-![ImageDemo](../images/démo.png)
+En général, on combine ensemble un type de média (screen, all...) et une expression grâce à and, bien qu'une expression seule puisse être utilisée. L'expression est toujours écrite entre parenthèses.
 
-_"Cool être cette illu ? Aimer, ce genre de chose !"_ - Maître Yoda  :trollface:
+Les deux exemples suivants ciblent les écrans de largeur inférieure à 640 pixels grâce à la règle max-width associée à la valeur 640px.
 
-- Par la suite, le code `HTML`:
+![and](../yassinebelaid/Pictures/and.png)
 
-![ImageHTML](../images/htmlresponsive.png)
+#not only:
 
-- C'est là que ça devient intéressant, voici le code `CSS` :
+![not_only](../yassinebelaid/Pictures/not_only.png)
 
-![Image1css](../images/css1.png)
-![Image2css](../images/css2.png)
+# Fonctionnalités:
+
+![min-max] (../yassinebelaid/Pictures/min-max.png)
+
+La plupart des critères (ou fonctionnalités) peuvent être préfixés par min- et max- lorsqu'elles acceptent des valeurs numériques pour définir des valeurs minimales ou maximales à respecter.
+
+**color :** support de la couleur (bits/pixel)
+**color-index :** périphérique utilisant une table de couleurs indexées
+**device-aspect-ratio :** ratio du périphérique de sortie (par exemple 16/9)
+**aspect-ratio :** ratio de la zone d'affichage
+**device-height :** dimension en hauteur du périphérique
+**device-width :** dimension en largeur du périphérique
+**grid :** périphérique bitmap ou grille (ex : lcd)
+**height :** dimension en hauteur de la zone d'affichage
+**monochrome :** périphérique monochrome ou niveaux de gris (bits/pixel)
+**orientation :** orientation du périphérique (portrait ou landscape)
+**resolution :** résolution du périphérique (en dpi, dppx, ou dpcm)
+**scan :** type de balayage des téléviseurs (progressive ou interlace)
+**width :**dimension en largeur de la zone d'affichage
+
+Les dimensions pourront être évaluées avec des unités (px, em). Les ratio avec des fractions (entier/entier). Une résolution sera définie en dpi (points par pouce) ou en dpcm (points par centimètres).
+
+Certaines de ces propriétés peuvent être testées d'une façon raccourcie sans valeur, par exemple (color) qui sera équivalent à (min-color: 1) ou considérée comme vraie pour une valeur différente de 0. La fonctionnalité monochrome n'est pas uniquement booléenne avec la syntaxe raccourcie (monochrome), on peut aussi considérer un nombre de niveaux de gris, par exemple (min-monochrome: 2) pour 2 bits par pixel.
+
+# Mobile first :
+
+![mob] (../yassinebelaid/Pictures/mob.png)
+
+#langage HTML Flexible et Dynamique de l’adaptation des Éléments Mobiles:
+Fonctionnement : Un algorithme qui prend en compte l’ordre des éléments de la page sur la version PC et les réorganise en fonction de la logique prédéterminée de la page mobile. Les modifications personnalisées d'ordre logique sont autorisées pour l’affichage mobile destinées à répondre aux besoins professionnels du webmaster (contrairement aux sites web responsifs non modifiables) - ce qui réduit suffisamment le processus de transfert en général. Pourquoi est-ce nécessaire ? Réduit le temps et les coûts pour mettre à jour la version mobile.
+
+#Mise en forme des espaces durant l’adaptation de la version PC en version mobile :
+Fonctionnement : Un algorithme pour nettoyer les espaces inutiles qui existent à des fins de design unique sur la version PC. Partant de l’approche du design Mobile first, ces espaces sont nuisibles (par exemple, un espace latéral de 300 px prévu pour un écran d’ordinateur de bureau 1920x1080 rendrait illisibles les éléments d’un smartphone 360x640).
+
+#Utilisation des polices du web pour obtenir le même résultat sur différents navigateurs:
+Fonctionnement : Utilisation d’un ensemble téléchargeable de polices web formatées de manière identique pour tous les navigateurs et appareils (WOFF2, WO Utilisation des polices du web pour obtenir le même résultat sur différents navigateurs.
+
+![mobf] (../yassinebelaid/Pictures/mobf.png)
+
+#Media queries level 4 :
+
+![mes](../yassinebelaid/Pictures/mes.png)
+
+Les entités multimédias de type "plage" peuvent être écrites en alternance dans un contexte de plage tirant parti du fait que leurs valeurs sont ordonnées, à l'aide d'opérateurs de comparaison mathématiques ordinaires:
+
+![med] (../yassinebelaid/Pictures/med.png)
+
+**Remarque:** cette syntaxe est nouvelle pour le niveau 4 de Mediaqueries et n'est donc pas aussi largement prise en charge pour le moment que les préfixes min / max .
+
+
+# Mixins media queries: 
+
+![mixins](../yassinebelaid/Pictures/mixins.png)
+
+Sass mixins nous donne la possibilité de créer des fragments de code réutilisables: ils réduisent la répétition, favorisent le code non crypté et permettent une maintenance aisée. Écrire des media queries sous forme de mixins à insérer dans vos feuilles de style.
+
+/yassinebelaid/Pictures/respo.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
